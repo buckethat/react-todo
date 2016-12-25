@@ -1,0 +1,20 @@
+.goal {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  padding: 1rem;
+  transition: background .3s ease;
+
+  p {
+    margin: 0;
+  }
+
+  &:hover {
+    background: #f0f0f0;
+  }
+}
+
+.goal__subtext {
+  color: #999;
+  font-size: .25rem;
+}
